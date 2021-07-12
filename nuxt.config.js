@@ -1,6 +1,9 @@
 export default {
 
   target:'server',
+  generate: {
+    dir: 'public'
+  },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'mynuxtpress',
